@@ -1,13 +1,27 @@
 ------------------------- Conway's Game of Life in C ---------------------------
 
-    This directory contains code for scaling the Conway's Game of Life C
-code, life.c.
-
+    There are two main files in the repository. The first one is the `MPI 
+    implementation` folder which contains another readme file which contains the
+    instructions for execution in MPI environment. It requires compilation of 
+    the cpp program followed by exection of the input file.The directory 
+    contains code for scaling the Conway's Game of Life C code, life.c.
     You can cause the program to output the Game of Life grid at each time step
-by uncommenting the relevant line in the Makefile.
-
+    by uncommenting the relevant line in the Makefile.
     The code can be made into serial, MPI, OpenMP, and hybrid executables. To
-compile each of these, enter 'make serial', 'make mpi', 'make openmp', or
-'make hybrid', respectively.  To remove all executables from the directory,
-enter 'make clean'.  To re-make all of the executables at once, enter 'make
-all'.
+    compile each of these, enter 'make serial', 'make mpi', 'make openmp', or
+    'make hybrid', respectively.  To remove all executables from the directory,
+    enter 'make clean'.  To re-make all of the executables at once, enter 'make
+    all'.
+    The other file is the `Time comparison` folder which contains the serial as
+    well as paralled execution of the program according to the rules and a normal 
+    compiler can be used to run the programs and just wait for the compilation 
+    to finish in the terminal. It shall give the total time of implementation 
+    returned.
+    
+    I have also attached the research paper. Please make sure to cite it in
+    case you do use it anywhere:
+    Goyal, R., Soneji, C. L., Velpula, B. V. K., & Sairabanu, J. (2020, February). 
+    Performance Enhancement Of Conway’s Game Of Life Using Parallel And Distributed 
+    Computing platform. In 2020 International Conference on Emerging Trends in 
+    Information Technology and Engineering (ic-ETITE) (pp. 1-7). IEEE.‏
+    
